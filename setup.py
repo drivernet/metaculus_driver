@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(
     name='metaculus',
-    version='0.0.1',
+    version='0.0.2',
     description='Metaculus controller.',
     url='https://gitlab.com/wefindx/metaculus',
     author='Mindey',
