@@ -5,7 +5,7 @@ import apiage
 from .utils import clean_em
 
 
-def generate(query=None, limit=None):
+def _harvest(query=None, limit=None):
 
     for item in apiage.gen(
         'https://www.metaculus.com/api2/questions/',
